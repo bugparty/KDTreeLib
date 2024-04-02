@@ -24,10 +24,10 @@ namespace NSKdTreeLib {
         };
     }
 
-//Define the parameters of the iKDTree
+///Define the parameters of the iKDTree
     struct IKDParameters : public NSVarTypeDict::VarTypeDict<detail::DELETE_PARAM, detail::BALANCE_PARAM, detail::BOX_LENGTH> {
     };
-//Define the parameters of the iOctree
+///Define the parameters of the iOctree
     struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<detail::BucketSize, detail::CopyPoints, detail::MinExtent> {
     };
     struct KDLibBoxPointType {
@@ -39,7 +39,7 @@ namespace NSKdTreeLib {
         float x, y, z;
         inline constexpr KDTreeLib_PointType(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
     };
-    /*
+    /**
      * The KDTree Library
      * @param TParams: the  constructor parameters of the KDTree
      * @param PointType: the type of the cloud point in the KDTree
@@ -55,13 +55,13 @@ namespace NSKdTreeLib {
         KDTreeLib(KDTreeLib&&) = delete;
         KDTreeLib &&operator=(const KDTreeLib &) = delete;
         KDTreeLib &&operator=(KDTreeLib &&) = delete;
-        /*
+        /**
          * Constructor, you don't need to pass the type of KDTree, it will be determined by the parameters type
          * By use specialization instead of virtual functions, the performance of the code will be greatly improved
          */
         KDTreeLib(TParams &params) {};
 
-        /*
+        /**
          * Initialize the KDTree
          * @param TParams: the parameters of the KDTree
          */
@@ -69,7 +69,7 @@ namespace NSKdTreeLib {
 
         virtual ~KDTreeLib() {}
 
-        /*
+        /**
          * Set the parameters of the KDTree
          * @param TTag: the type of the parameter
          * @param TVal: the value of the parameter
@@ -109,7 +109,7 @@ namespace NSKdTreeLib {
 
     };
 
-//Specialization Implenmentation 特化实现
+///Specialization Implenmentation 特化实现
     template<typename PointType>
     class KDTreeLib<IKDParameters, PointType> {
         KDTreeLib(IKDParameters &params):m_params(params) {}
