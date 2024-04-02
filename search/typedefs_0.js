@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['newtupletype_140',['NewTupleType',['../namespace_n_s_var_type_dict.html#a6cc92958f4158bfbfbc09e8d39970130',1,'NSVarTypeDict']]]
+  ['impltype_158',['ImplType',['../class_n_s_kd_tree_lib_1_1_i_k_d_tree.html#ab132dc2ae142c8efa047d677406dc4e1',1,'NSKdTreeLib::IKDTree']]]
 ];

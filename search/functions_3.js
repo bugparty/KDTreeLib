@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['delete_5fpoint_5fboxes_114',['Delete_Point_Boxes',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a2c626b93d086c7965d9c640da3d9a3d9',1,'NSKdTreeLib::KDTreeLib']]],
-  ['delete_5fpoints_115',['Delete_Points',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#afd1446c9ba1087c3d4e729e65f56dda7',1,'NSKdTreeLib::KDTreeLib']]]
+  ['delete_5fpoint_5fboxes_128',['Delete_Point_Boxes',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ab6ba2c88de0dd309b2925c2496e90139',1,'NSKdTreeLib::KDTreeLib']]],
+  ['delete_5fpoints_129',['Delete_Points',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a7d904bddb347b3e5959c51e22fc8f10d',1,'NSKdTreeLib::KDTreeLib']]]
 ];

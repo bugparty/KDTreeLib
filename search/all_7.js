@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['m_5fparams_30',['m_params',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a22b8160f95da11f9a7a8c9819f8ccebb',1,'NSKdTreeLib::KDTreeLib::m_params()'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib_3_01_i_k_d_parameters_00_01_point_type_01_4.html#a4bd4fb48c6ceb90f7b93941dc15f11b8',1,'NSKdTreeLib::KDTreeLib&lt; IKDParameters, PointType &gt;::m_params()'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib_3_01_i_octree_parameters_00_01_point_type_01_4.html#ac0d18a6943c90730dd27b48cf05d6c76',1,'NSKdTreeLib::KDTreeLib&lt; IOctreeParameters, PointType &gt;::m_params()']]],
-  ['m_5ftuple_31',['m_tuple',['../struct_n_s_var_type_dict_1_1_var_type_dict_1_1_values.html#a8ca02b8e9b7d32bdf962554881b0d60a',1,'NSVarTypeDict::VarTypeDict::Values']]],
-  ['main_32',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
-  ['main_2ecpp_33',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['minextent_34',['MinExtent',['../struct_n_s_kd_tree_lib_1_1detail_1_1_min_extent.html',1,'NSKdTreeLib::detail']]]
+  ['kdlibboxpointtype_29',['KDLibBoxPointType',['../struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html',1,'NSKdTreeLib']]],
+  ['kdtreelib_30',['KDTreeLib',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad39787f0baa4f9625bd4a00e1ba55ac4',1,'NSKdTreeLib::KDTreeLib::KDTreeLib()=default'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a349d85da6f95d60aa98a54fbcf286357',1,'NSKdTreeLib::KDTreeLib::KDTreeLib(KDTreeLib &amp;)=delete'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a4deead52741ff3afde569c20b9f55c96',1,'NSKdTreeLib::KDTreeLib::KDTreeLib(KDTreeLib &amp;&amp;)=delete'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a97cdb9d179328caea89d7233e5f55711',1,'NSKdTreeLib::KDTreeLib::KDTreeLib(TParams &amp;params)'],['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html',1,'NSKdTreeLib::KDTreeLib&lt; PointType &gt;']]],
+  ['kdtreelib_2ecpp_31',['KdTreeLib.cpp',['../_kd_tree_lib_8cpp.html',1,'']]],
+  ['kdtreelib_2ehpp_32',['KdTreeLib.hpp',['../_kd_tree_lib_8hpp.html',1,'']]],
+  ['kdtreelib_5fikdtree_5fhpp_33',['KDTREELIB_IKDTREE_HPP',['../_ikd_tree_8hpp.html#ad4686e63c6a40ba2ed70f1ca8a7adbf5',1,'IkdTree.hpp']]],
+  ['kdtreelib_5fpointtype_34',['KDTreeLib_PointType',['../struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html#a165116ed1380cbb06a393c10c622ac45',1,'NSKdTreeLib::KDTreeLib_PointType::KDTreeLib_PointType()'],['../struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html',1,'NSKdTreeLib::KDTreeLib_PointType']]],
+  ['kdtreetype_35',['KDTreeType',['../namespace_n_s_kd_tree_lib.html#a1ead6c80821cc5158eb1abeb09230090',1,'NSKdTreeLib']]]
 ];
