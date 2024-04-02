@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z_80',['z',['../struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html#a16b09f2116c10f244e7de5c5e90c8803',1,'NSKdTreeLib::KDTreeLib_PointType']]]
+  ['z_81',['z',['../struct_n_s_kd_tree_lib_1_1_point_type3.html#aa755826aca13ef46eb0c98fffd79cd71',1,'NSKdTreeLib::PointType3']]]
 ];

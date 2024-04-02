@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7eikdtree_147',['~IKDTree',['../class_n_s_kd_tree_lib_1_1_i_k_d_tree.html#a40572d3afb544ec9a3d3af4b961d5b2f',1,'NSKdTreeLib::IKDTree']]],
-  ['_7ekdtreelib_148',['~KDTreeLib',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a388a66f490150a615c0e9583cd1a25ad',1,'NSKdTreeLib::KDTreeLib']]]
+  ['validnum_146',['validnum',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a167678fcaf30b7a6f70a9412d00e9588',1,'NSKdTreeLib::KDTreeLib']]],
+  ['values_147',['Values',['../struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_var_type_dict_1_1_values.html#a4ebfd2e50acbcb514abc588548e9aa2c',1,'NSKdTreeLib::NSVarTypeDict::VarTypeDict::Values::Values()=default'],['../struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_var_type_dict_1_1_values.html#a035abd7380d677031c12ed161c04c10d',1,'NSKdTreeLib::NSVarTypeDict::VarTypeDict::Values::Values(std::shared_ptr&lt; void &gt;(&amp;&amp;input)[sizeof...(TTypes)])']]]
 ];

@@ -105,10 +105,10 @@ Inheritance diagram for NSKdTreeLib::KDTreeLib&lt; PointType &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ad12fd7730a5bce5cc204b47378ff9ac2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> = std::vector&lt; PointType, Eigen::aligned_allocator&lt; PointType &gt; &gt;</td></tr>
+<tr class="memitem:ad12fd7730a5bce5cc204b47378ff9ac2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> = std::vector&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>, Eigen::aligned_allocator&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &gt;</td></tr>
 <tr class="memdesc:ad12fd7730a5bce5cc204b47378ff9ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">点云容器类型  <a href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">More...</a><br /></td></tr>
 <tr class="separator:ad12fd7730a5bce5cc204b47378ff9ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0851ec2674221a1a94f13735e7c0ab7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7">Ptr</a> = std::shared_ptr&lt; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; PointType &gt; &gt;</td></tr>
+<tr class="memitem:ad0851ec2674221a1a94f13735e7c0ab7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7">Ptr</a> = std::shared_ptr&lt; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &gt;</td></tr>
 <tr class="memdesc:ad0851ec2674221a1a94f13735e7c0ab7"><td class="mdescLeft">&#160;</td><td class="mdescRight">本体智能指针类型  <a href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7">More...</a><br /></td></tr>
 <tr class="separator:ad0851ec2674221a1a94f13735e7c0ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -143,11 +143,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5dc573093600296fdd2b31327060b8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8f2fecba3ec25683c0edbdd143a59d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#af8f2fecba3ec25683c0edbdd143a59d4">Build</a> (const <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;point_cloud)</td></tr>
 <tr class="separator:af8f2fecba3ec25683c0edbdd143a59d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c0cc7f137386863f10bfd9cda80ee6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a28c0cc7f137386863f10bfd9cda80ee6">Nearest_Search</a> (PointType point, int k_nearest, <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;Nearest_Points, std::vector&lt; float &gt; &amp;Point_Distance, double max_dist=INFINITY)</td></tr>
+<tr class="memitem:a28c0cc7f137386863f10bfd9cda80ee6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a28c0cc7f137386863f10bfd9cda80ee6">Nearest_Search</a> (<a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> point, int k_nearest, <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;Nearest_Points, std::vector&lt; float &gt; &amp;Point_Distance, double max_dist=INFINITY)</td></tr>
 <tr class="separator:a28c0cc7f137386863f10bfd9cda80ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7953793134ee102321eee2bb967f8ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ac7953793134ee102321eee2bb967f8ad">Box_Search</a> (const <a class="el" href="struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html">KDLibBoxPointType</a> &amp;Box_of_Point, <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;Storage)</td></tr>
 <tr class="separator:ac7953793134ee102321eee2bb967f8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add25ac98675e650a8da5ef9042c35b7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#add25ac98675e650a8da5ef9042c35b7f">Radius_Search</a> (PointType point, const float radius, <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;Storage)</td></tr>
+<tr class="memitem:add25ac98675e650a8da5ef9042c35b7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#add25ac98675e650a8da5ef9042c35b7f">Radius_Search</a> (<a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> point, const float radius, <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;Storage)</td></tr>
 <tr class="separator:add25ac98675e650a8da5ef9042c35b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3a6504704bb404a745b5191d0fdc830"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ae3a6504704bb404a745b5191d0fdc830">Add_Points</a> (<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;PointToAdd, bool downsample_on)</td></tr>
 <tr class="separator:ae3a6504704bb404a745b5191d0fdc830"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,7 +188,7 @@ class NSKdTreeLib::KDTreeLib&lt; PointType &gt;</h3>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> =  std::vector&lt;PointType, Eigen::aligned_allocator&lt;PointType&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> =  std::vector&lt;<a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>, Eigen::aligned_allocator&lt;<a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -206,7 +206,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7">Ptr</a> =  std::shared_ptr&lt;<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt;PointType&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7">Ptr</a> =  std::shared_ptr&lt;<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt;<a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -228,7 +228,7 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -255,9 +255,9 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; PointType &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -283,9 +283,9 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; PointType &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -313,7 +313,7 @@ template&lt;class TParams &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
           <td>(</td>
           <td class="paramtype">TParams &amp;&#160;</td>
           <td class="paramname"><em>params</em></td><td>)</td>
@@ -342,7 +342,7 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::~<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
+          <td class="memname">virtual <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::~<a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -367,7 +367,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::acquire_removed_points </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::acquire_removed_points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;&#160;</td>
           <td class="paramname"><em>removed_points</em></td><td>)</td>
@@ -387,7 +387,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Add_Point_Boxes </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Add_Point_Boxes </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html">KDLibBoxPointType</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>BoxPoints</em></td><td>)</td>
@@ -407,7 +407,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Add_Points </td>
+          <td class="memname">int <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Add_Points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;&#160;</td>
           <td class="paramname"><em>PointToAdd</em>, </td>
@@ -437,7 +437,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Box_Search </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Box_Search </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html">KDLibBoxPointType</a> &amp;&#160;</td>
           <td class="paramname"><em>Box_of_Point</em>, </td>
@@ -467,7 +467,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Build </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Build </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;&#160;</td>
           <td class="paramname"><em>point_cloud</em></td><td>)</td>
@@ -487,7 +487,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Delete_Point_Boxes </td>
+          <td class="memname">int <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Delete_Point_Boxes </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html">KDLibBoxPointType</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>BoxPoints</em></td><td>)</td>
@@ -507,7 +507,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Delete_Points </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Delete_Points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2">PointVector</a> &amp;&#160;</td>
           <td class="paramname"><em>PointToDel</em></td><td>)</td>
@@ -527,7 +527,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto* <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::implPointer </td>
+          <td class="memname">auto* <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::implPointer </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -551,7 +551,7 @@ template&lt;class TParams &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Initialize </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Initialize </td>
           <td>(</td>
           <td class="paramtype">TParams &amp;&#160;</td>
           <td class="paramname"><em>params</em></td><td>)</td>
@@ -582,9 +582,9 @@ template&lt;class TParams &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Nearest_Search </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Nearest_Search </td>
           <td>(</td>
-          <td class="paramtype">PointType&#160;</td>
+          <td class="paramtype"><a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>&#160;</td>
           <td class="paramname"><em>point</em>, </td>
         </tr>
         <tr>
@@ -633,9 +633,9 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&amp;&amp; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::operator= </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&amp;&amp; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; PointType &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -661,9 +661,9 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&amp;&amp; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::operator= </td>
+          <td class="memname"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&amp;&amp; <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; PointType &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt; &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -686,9 +686,9 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::Radius_Search </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::Radius_Search </td>
           <td>(</td>
-          <td class="paramtype">PointType&#160;</td>
+          <td class="paramtype"><a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a>&#160;</td>
           <td class="paramname"><em>point</em>, </td>
         </tr>
         <tr>
@@ -722,7 +722,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::root_alpha </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::root_alpha </td>
           <td>(</td>
           <td class="paramtype">float &amp;&#160;</td>
           <td class="paramname"><em>alpha_bal</em>, </td>
@@ -754,7 +754,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename TTag , typename TVal &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::SetParam </td>
+          <td class="memname">void <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::SetParam </td>
           <td>(</td>
           <td class="paramtype">TVal &amp;&amp;&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
@@ -781,7 +781,7 @@ template&lt;typename TTag , typename TVal &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::size </td>
+          <td class="memname">size_t <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -800,7 +800,7 @@ template&lt;typename PointType &gt; </div>
 template&lt;typename PointType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::validnum </td>
+          <td class="memname">size_t <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::validnum </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -823,7 +823,7 @@ template&lt;typename PointType &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void* <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; PointType &gt;::p_impl</td>
+          <td class="memname">void* <a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">NSKdTreeLib::KDTreeLib</a>&lt; <a class="el" href="_ikd_tree_test_8cpp.html#a211dbfafc7962bb5db3e38b985abb640">PointType</a> &gt;::p_impl</td>
         </tr>
       </table>
   </td>
@@ -844,7 +844,7 @@ template&lt;typename PointType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_s_kd_tree_lib.html">NSKdTreeLib</a></li><li class="navelem"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a></li>
-    <li class="footer">Generated on Tue Apr 2 2024 23:04:59 for KDTreeLib by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Apr 2 2024 23:08:45 for KDTreeLib by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

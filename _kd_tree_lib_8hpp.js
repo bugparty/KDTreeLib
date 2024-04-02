@@ -9,7 +9,7 @@ var _kd_tree_lib_8hpp =
     [ "IKDParameters", "struct_n_s_kd_tree_lib_1_1_i_k_d_parameters.html", null ],
     [ "IOctreeParameters", "struct_n_s_kd_tree_lib_1_1_i_octree_parameters.html", null ],
     [ "KDLibBoxPointType", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type" ],
-    [ "KDTreeLib_PointType", "struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type" ],
+    [ "PointType3", "struct_n_s_kd_tree_lib_1_1_point_type3.html", "struct_n_s_kd_tree_lib_1_1_point_type3" ],
     [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib" ],
     [ "KDTreeType", "_kd_tree_lib_8hpp.html#a1ead6c80821cc5158eb1abeb09230090", [
       [ "IKDTREE", "_kd_tree_lib_8hpp.html#a1ead6c80821cc5158eb1abeb09230090a624139655c403205b9608e1693cb9608", null ],

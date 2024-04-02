@@ -27,7 +27,7 @@ var annotated_dup =
       [ "IKDParameters", "struct_n_s_kd_tree_lib_1_1_i_k_d_parameters.html", null ],
       [ "IOctreeParameters", "struct_n_s_kd_tree_lib_1_1_i_octree_parameters.html", null ],
       [ "KDLibBoxPointType", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type" ],
-      [ "KDTreeLib_PointType", "struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type" ],
+      [ "PointType3", "struct_n_s_kd_tree_lib_1_1_point_type3.html", "struct_n_s_kd_tree_lib_1_1_point_type3" ],
       [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib" ]
     ] ]
 ];

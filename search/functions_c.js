@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['test_144',['TEST',['../_hello_test_8cpp.html#a4d0bc75d9219d03c0ba2fa265b5014aa',1,'TEST(HelloTest, BasicAssertions):&#160;HelloTest.cpp'],['../_ikd_tree_test_8cpp.html#a71a162bc452b0f2a65bf42a4bad08482',1,'TEST(IkdTreeTest, TestConstructor):&#160;IkdTreeTest.cpp'],['../_ikd_tree_test_8cpp.html#a1b1405230f48471187ddf3d398fa9940',1,'TEST(IkdTreeTest, TestConstructor2):&#160;IkdTreeTest.cpp']]]
+  ['set_142',['Set',['../struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_var_type_dict_1_1_values.html#a0aceb7102f33a3135c940153d775605a',1,'NSKdTreeLib::NSVarTypeDict::VarTypeDict::Values']]],
+  ['setparam_143',['SetParam',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a116ad2dd40f61191cc7737046ef338c3',1,'NSKdTreeLib::KDTreeLib']]],
+  ['size_144',['size',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a7fa1b293304c8c1068d13b94ace99b05',1,'NSKdTreeLib::KDTreeLib']]]
 ];

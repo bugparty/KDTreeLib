@@ -12,12 +12,12 @@ var hierarchy =
     [ "NSKdTreeLib::KDTreeLib< PointType >", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html", [
       [ "NSKdTreeLib::IKDTree< PointType >", "class_n_s_kd_tree_lib_1_1_i_k_d_tree.html", null ]
     ] ],
-    [ "NSKdTreeLib::KDTreeLib_PointType", "struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html", null ],
     [ "NSKdTreeLib::MinExtent", "struct_n_s_kd_tree_lib_1_1_min_extent.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::NewTupleType_< TVal, N, M, TProcessedTypes, TRemainTypes >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_new_tuple_type__.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::NewTupleType_< TVal, N, M, TCont< TModifiedTypes... >, TCurType, TRemainTypes... >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_new_tuple_type___3_01_t_val_00_01_n_00_01_m_00_be5db02bd909b69c3a7e3833af5b2da8.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::NewTupleType_< TVal, N, N, TCont< TModifiedTypes... >, TCurType, TRemainTypes... >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_new_tuple_type___3_01_t_val_00_01_n_00_01_n_00_f101cf26432467d22a20197505bf72fc.html", null ],
     [ "NSKdTreeLib::Traits::NullParameter", "struct_n_s_kd_tree_lib_1_1_traits_1_1_null_parameter.html", null ],
+    [ "NSKdTreeLib::PointType3", "struct_n_s_kd_tree_lib_1_1_point_type3.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::Pos2Type_< Pos, TTags >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_pos2_type__.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::Pos2Type_< Pos, TCur, TTags... >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_pos2_type___3_01_pos_00_01_t_cur_00_01_t_tags_8_8_8_01_4.html", null ],
     [ "NSKdTreeLib::NSVarTypeDict::Tag2ID_< TFindTag, N, TCurTag, TTags >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_tag2_i_d__.html", null ],

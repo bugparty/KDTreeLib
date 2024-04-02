@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['set_141',['Set',['../struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_var_type_dict_1_1_values.html#a0aceb7102f33a3135c940153d775605a',1,'NSKdTreeLib::NSVarTypeDict::VarTypeDict::Values']]],
-  ['setparam_142',['SetParam',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a116ad2dd40f61191cc7737046ef338c3',1,'NSKdTreeLib::KDTreeLib']]],
-  ['size_143',['size',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a7fa1b293304c8c1068d13b94ace99b05',1,'NSKdTreeLib::KDTreeLib']]]
+  ['radius_5fsearch_140',['Radius_Search',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#add25ac98675e650a8da5ef9042c35b7f',1,'NSKdTreeLib::KDTreeLib']]],
+  ['root_5falpha_141',['root_alpha',['../class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a5dc573093600296fdd2b31327060b8cb',1,'NSKdTreeLib::KDTreeLib']]]
 ];

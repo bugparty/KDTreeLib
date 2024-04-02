@@ -5,6 +5,5 @@ var searchData=
   ['kdtreelib_2ecpp_31',['KdTreeLib.cpp',['../_kd_tree_lib_8cpp.html',1,'']]],
   ['kdtreelib_2ehpp_32',['KdTreeLib.hpp',['../_kd_tree_lib_8hpp.html',1,'']]],
   ['kdtreelib_5fikdtree_5fhpp_33',['KDTREELIB_IKDTREE_HPP',['../_ikd_tree_8hpp.html#ad4686e63c6a40ba2ed70f1ca8a7adbf5',1,'IkdTree.hpp']]],
-  ['kdtreelib_5fpointtype_34',['KDTreeLib_PointType',['../struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html#a165116ed1380cbb06a393c10c622ac45',1,'NSKdTreeLib::KDTreeLib_PointType::KDTreeLib_PointType()'],['../struct_n_s_kd_tree_lib_1_1_k_d_tree_lib___point_type.html',1,'NSKdTreeLib::KDTreeLib_PointType']]],
-  ['kdtreetype_35',['KDTreeType',['../namespace_n_s_kd_tree_lib.html#a1ead6c80821cc5158eb1abeb09230090',1,'NSKdTreeLib']]]
+  ['kdtreetype_34',['KDTreeType',['../namespace_n_s_kd_tree_lib.html#a1ead6c80821cc5158eb1abeb09230090',1,'NSKdTreeLib']]]
 ];
