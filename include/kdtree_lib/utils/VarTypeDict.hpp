@@ -5,18 +5,14 @@
 #ifndef METAPROGRAMMING_VARTYPEDICT_H
 #define METAPROGRAMMING_VARTYPEDICT_H
 #include <type_traits>
-namespace NSVarTypeDict {
-    /** 用来存储类型 */
-    template <typename T>
-    struct Identity_
-    {
-        using type = T;
-    };
-    /**待定参数占位*/
-    struct NullParameter{};
+#include "traits.hpp"
+namespace NSKdTreeLib::NSVarTypeDict {
+
+    using namespace Traits;
     /**N表示要构造的元素数量，TCont存储最终结果，T已经生成的序列*/
     template <size_t N, template<typename ...> class TCont, typename ...T>
     struct Create_ {
+
         using type = typename Create_<N-1,TCont,NullParameter,T...>::type;
     };
     /**特化最后一个元素*/

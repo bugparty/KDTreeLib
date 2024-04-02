@@ -6,29 +6,28 @@
 #include "kdtree_lib/utils/VarTypeDict.hpp"
 namespace NSKdTreeLib {
     namespace detail{
-        struct DELETE_PARAM {
-        };
-        struct BALANCE_PARAM {
-        };
-        struct BOX_LENGTH {
-        };
-        struct BucketSize {
-        };
-        struct CopyPoints {
-        };
-        struct MinExtent {
-        };
-        enum class KDTreeType {
-            IKDTREE,
-            iOCTREE
-        };
     }
-
+    struct DELETE_PARAM {
+    };
+    struct BALANCE_PARAM {
+    };
+    struct BOX_LENGTH {
+    };
+    struct BucketSize {
+    };
+    struct CopyPoints {
+    };
+    struct MinExtent {
+    };
+    enum class KDTreeType {
+        IKDTREE,
+        iOCTREE
+    };
 ///Define the parameters of the iKDTree
-    struct IKDParameters : public NSVarTypeDict::VarTypeDict<detail::DELETE_PARAM, detail::BALANCE_PARAM, detail::BOX_LENGTH> {
+    struct IKDParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::DELETE_PARAM, NSKdTreeLib::BALANCE_PARAM, NSKdTreeLib::BOX_LENGTH> {
     };
 ///Define the parameters of the iOctree
-    struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<detail::BucketSize, detail::CopyPoints, detail::MinExtent> {
+    struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::BucketSize, NSKdTreeLib::CopyPoints, NSKdTreeLib::MinExtent> {
     };
     struct KDLibBoxPointType {
         float vertex_min[3];
@@ -44,13 +43,16 @@ namespace NSKdTreeLib {
      * @param TParams: the  constructor parameters of the KDTree
      * @param PointType: the type of the cloud point in the KDTree
      */
-    template<typename TParams, typename PointType>
+    template<typename PointType>
     class KDTreeLib {
     public:
+        /// 点云容器类型
         using PointVector = std::vector<PointType, Eigen::aligned_allocator<PointType>>;
-        using Ptr = std::shared_ptr<KDTreeLib<TParams, PointType>>;
+        /// 本体智能指针类型
+        using Ptr = std::shared_ptr<KDTreeLib<PointType>>;
         //Delete the default constructor and assignment operator
-        KDTreeLib() = delete;
+        //KDTreeLib() = delete;
+        KDTreeLib()=default;
         KDTreeLib(KDTreeLib&) = delete;
         KDTreeLib(KDTreeLib&&) = delete;
         KDTreeLib &&operator=(const KDTreeLib &) = delete;
@@ -59,12 +61,14 @@ namespace NSKdTreeLib {
          * Constructor, you don't need to pass the type of KDTree, it will be determined by the parameters type
          * By use specialization instead of virtual functions, the performance of the code will be greatly improved
          */
+        template<class TParams>
         KDTreeLib(TParams &params) {};
 
         /**
          * Initialize the KDTree
          * @param TParams: the parameters of the KDTree
          */
+        template<class TParams>
         void Initialize(TParams &params) {}
 
         virtual ~KDTreeLib() {}
@@ -103,27 +107,14 @@ namespace NSKdTreeLib {
         int Delete_Point_Boxes(std::vector<KDLibBoxPointType> &BoxPoints);
 
         void acquire_removed_points(PointVector &removed_points);
+
+        auto* implPointer() const;
     protected:
-        TParams m_params;
+        void* p_impl;
     private:
 
     };
 
-///Specialization Implenmentation 特化实现
-    template<typename PointType>
-    class KDTreeLib<IKDParameters, PointType> {
-        KDTreeLib(IKDParameters &params):m_params(params) {}
-        //TODO: Implement the ikd-Tree
-    private:
-        IKDParameters m_params;
-    };
 
-    template<typename PointType>
-    class KDTreeLib<IOctreeParameters, PointType> {
-        KDTreeLib(IOctreeParameters &params):m_params(params) {}
-        //TODO: Implement the iOctree
-    private:
-        IOctreeParameters m_params;
-    };
 }
 #endif //KDTREELIB_KDTREELIB_HPP
