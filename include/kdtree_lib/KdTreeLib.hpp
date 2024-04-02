@@ -76,9 +76,7 @@ namespace NSKdTreeLib {
          * 可以任意设置参数
          */
         template<typename TTag, typename TVal>
-        void SetParams(TVal &&val) {
-            m_params.template Set<TTag>(std::forward<TVal>(val));
-        }
+        void SetParams(TVal &&val) ;
 
         size_t size();
 
@@ -106,19 +104,26 @@ namespace NSKdTreeLib {
 
         void acquire_removed_points(PointVector &removed_points);
     protected:
-    private:
         TParams m_params;
+    private:
+
     };
 
 //Specialization Implenmentation 特化实现
     template<typename PointType>
     class KDTreeLib<IKDParameters, PointType> {
+        KDTreeLib(IKDParameters &params):m_params(params) {}
         //TODO: Implement the ikd-Tree
+    private:
+        IKDParameters m_params;
     };
 
     template<typename PointType>
     class KDTreeLib<IOctreeParameters, PointType> {
+        KDTreeLib(IOctreeParameters &params):m_params(params) {}
         //TODO: Implement the iOctree
+    private:
+        IOctreeParameters m_params;
     };
 }
 #endif //KDTREELIB_KDTREELIB_HPP
