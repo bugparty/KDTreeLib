@@ -1,0 +1,6 @@
+[submodule "thirdparty/i-octree"]
+	path = thirdparty/i-octree
+	url = https://github.com/bugparty/i-octree.git
+[submodule "thirdparty/ikd-Tree"]
+	path = thirdparty/ikd-Tree
+	url = https://github.com/bugparty/ikd-Tree.git
