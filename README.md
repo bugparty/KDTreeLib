@@ -39,3 +39,5 @@ This structure is a starting point and can be adapted based on the specific need
 ### Conclusion
 
 We hope this layout helps you navigate the KDTreeLib codebase. If you have any questions or suggestions for improvement, please feel free to contribute or contact the project maintainers.
+## Documentation
+documentation is available at [KDTreeLib](https://bugparty.github.io/KDTreeLib/)
