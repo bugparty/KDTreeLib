@@ -152,7 +152,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a22b8160f95da11f9a7a8c9819f8ccebb"><td class="memItemLeft" align="right" valign="top">TParams&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a22b8160f95da11f9a7a8c9819f8ccebb">m_params</a></td></tr>
 <tr class="separator:a22b8160f95da11f9a7a8c9819f8ccebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename TParams, typename PointType&gt;<br />
+class NSKdTreeLib::KDTreeLib&lt; TParams, PointType &gt;</h3>
+
+<p>The KDTree Library </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TParams</td><td>the constructor parameters of the KDTree </td></tr>
+    <tr><td class="paramname">PointType</td><td>the type of the cloud point in the KDTree </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a880607790b537cfad660737c27ab52d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a880607790b537cfad660737c27ab52d7">&#9670;&nbsp;</a></span>PointVector</h2>
 
@@ -294,6 +305,7 @@ template&lt;typename TParams , typename PointType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Constructor, you don't need to pass the type of KDTree, it will be determined by the parameters type By use specialization instead of virtual functions, the performance of the code will be greatly improved </p>
 
 </div>
 </div>
@@ -510,6 +522,12 @@ template&lt;typename TParams , typename PointType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Initialize the KDTree </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TParams</td><td>the parameters of the KDTree </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -702,6 +720,13 @@ template&lt;typename TTag , typename TVal &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set the parameters of the KDTree </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TTag</td><td>the type of the parameter </td></tr>
+    <tr><td class="paramname">TVal</td><td>the value of the parameter 可以任意设置参数 </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -777,7 +802,7 @@ template&lt;typename TParams , typename PointType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_n_s_kd_tree_lib.html">NSKdTreeLib</a></li><li class="navelem"><a class="el" href="class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html">KDTreeLib</a></li>
-    <li class="footer">Generated on Tue Apr 2 2024 20:52:34 for KDTreeLib by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Apr 2 2024 21:01:19 for KDTreeLib by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
