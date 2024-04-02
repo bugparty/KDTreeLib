@@ -76,7 +76,7 @@ namespace NSKdTreeLib {
          * 可以任意设置参数
          */
         template<typename TTag, typename TVal>
-        void SetParams(TVal &&val) ;
+        void SetParam(TVal &&val) ;
 
         size_t size();
 
