@@ -34,9 +34,9 @@ namespace NSKdTreeLib {
         float vertex_max[3];
     };
 
-    struct KDTreeLib_PointType {
+    struct PointType3 {
         float x, y, z;
-        inline constexpr KDTreeLib_PointType(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
+        inline constexpr PointType3(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
     };
     /**
      * The KDTree Library
