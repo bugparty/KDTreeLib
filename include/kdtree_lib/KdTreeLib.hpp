@@ -30,13 +30,28 @@ namespace NSKdTreeLib {
     struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::BucketSize, NSKdTreeLib::CopyPoints, NSKdTreeLib::MinExtent> {
     };
     struct KDLibBoxPointType {
-        float vertex_min[3];
-        float vertex_max[3];
+        union {
+            struct {
+                float x;
+                float y;
+                float z;
+            }point;
+            float vertex[3];
+        }min;
+        union {
+            struct {
+                float x;
+                float y;
+                float z;
+            }point;
+            float vertex[3];
+        }max;
     };
 
     struct PointType3 {
         float x, y, z;
         inline constexpr PointType3(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
+
     };
     /**
      * The KDTree Library

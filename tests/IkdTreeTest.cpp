@@ -20,3 +20,11 @@ TEST(IkdTreeTest, TestConstructor2) {
     EXPECT_NE(tree.implPointer(), nullptr);
 
 }
+TEST(IKdTreeTest, TestSetParams){
+    auto tree = IKDTree<PointType>();
+    tree.SetParam<DELETE_PARAM>(0.5);
+    tree.SetParam<BALANCE_PARAM>(0.7);
+    tree.SetParam<BOX_LENGTH>(0.3);
+    //no way to check the value because the ikdTree don't expose the value
+
+}
