@@ -1,6 +1,12 @@
 var annotated_dup =
 [
     [ "NSKdTreeLib", "namespace_n_s_kd_tree_lib.html", [
+      [ "detail", "namespace_n_s_kd_tree_lib_1_1detail.html", [
+        [ "Specialized", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized.html", null ],
+        [ "Specialized< PointType, DELETE_PARAM, TVal >", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_d_e_l_e_t_e___p_a_r_a_m_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_d_e_l_e_t_e___p_a_r_a_m_00_01_t_val_01_4" ],
+        [ "Specialized< PointType, BALANCE_PARAM, TVal >", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_a_l_a_n_c_e___p_a_r_a_m_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_a_l_a_n_c_e___p_a_r_a_m_00_01_t_val_01_4" ],
+        [ "Specialized< PointType, BOX_LENGTH, TVal >", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4" ]
+      ] ],
       [ "NSVarTypeDict", "namespace_n_s_kd_tree_lib_1_1_n_s_var_type_dict.html", [
         [ "Create_", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create__.html", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create__" ],
         [ "Create_< 0, TCont, T... >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create___3_010_00_01_t_cont_00_01_t_8_8_8_01_4.html", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create___3_010_00_01_t_cont_00_01_t_8_8_8_01_4" ],
@@ -27,7 +33,8 @@ var annotated_dup =
       [ "IKDParameters", "struct_n_s_kd_tree_lib_1_1_i_k_d_parameters.html", null ],
       [ "IOctreeParameters", "struct_n_s_kd_tree_lib_1_1_i_octree_parameters.html", null ],
       [ "KDLibBoxPointType", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type" ],
-      [ "PointType3", "struct_n_s_kd_tree_lib_1_1_point_type3.html", "struct_n_s_kd_tree_lib_1_1_point_type3" ],
+      [ "Point3", "struct_n_s_kd_tree_lib_1_1_point3.html", "struct_n_s_kd_tree_lib_1_1_point3" ],
+      [ "RandomPoint3Generator", "struct_n_s_kd_tree_lib_1_1_random_point3_generator.html", "struct_n_s_kd_tree_lib_1_1_random_point3_generator" ],
       [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib" ]
     ] ]
 ];

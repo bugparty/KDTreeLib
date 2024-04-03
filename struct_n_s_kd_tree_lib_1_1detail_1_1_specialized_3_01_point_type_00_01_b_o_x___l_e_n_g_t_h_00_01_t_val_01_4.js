@@ -1,0 +1,4 @@
+var struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4 =
+[
+    [ "Set", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4.html#aa1ae6841c569d05840d99a1fadee7e5b", null ]
+];

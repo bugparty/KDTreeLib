@@ -1,7 +1,6 @@
 var class_n_s_kd_tree_lib_1_1_k_d_tree_lib =
 [
     [ "PointVector", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad12fd7730a5bce5cc204b47378ff9ac2", null ],
-    [ "Ptr", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad0851ec2674221a1a94f13735e7c0ab7", null ],
     [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad39787f0baa4f9625bd4a00e1ba55ac4", null ],
     [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a349d85da6f95d60aa98a54fbcf286357", null ],
     [ "KDTreeLib", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a4deead52741ff3afde569c20b9f55c96", null ],
@@ -11,7 +10,7 @@ var class_n_s_kd_tree_lib_1_1_k_d_tree_lib =
     [ "Add_Point_Boxes", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#afce31c798b51680b867949a3e39dcead", null ],
     [ "Add_Points", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ae3a6504704bb404a745b5191d0fdc830", null ],
     [ "Box_Search", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ac7953793134ee102321eee2bb967f8ad", null ],
-    [ "Build", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#af8f2fecba3ec25683c0edbdd143a59d4", null ],
+    [ "Build", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a63fc3d8babe48dda610652900a1077ac", null ],
     [ "Delete_Point_Boxes", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ab6ba2c88de0dd309b2925c2496e90139", null ],
     [ "Delete_Points", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a7d904bddb347b3e5959c51e22fc8f10d", null ],
     [ "implPointer", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#ad99fb271a9fc4b062a58a0d4bc523063", null ],
@@ -22,7 +21,7 @@ var class_n_s_kd_tree_lib_1_1_k_d_tree_lib =
     [ "Radius_Search", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#add25ac98675e650a8da5ef9042c35b7f", null ],
     [ "root_alpha", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a5dc573093600296fdd2b31327060b8cb", null ],
     [ "SetParam", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a116ad2dd40f61191cc7737046ef338c3", null ],
-    [ "size", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a7fa1b293304c8c1068d13b94ace99b05", null ],
-    [ "validnum", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a167678fcaf30b7a6f70a9412d00e9588", null ],
+    [ "size", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a0b1ac866c05f7d6d071ac547a0bbc8b2", null ],
+    [ "validnum", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#aef0f249e76c1436dfd26b7224a5bcb8f", null ],
     [ "p_impl", "class_n_s_kd_tree_lib_1_1_k_d_tree_lib.html#a8ae021f924b493de3645e413325bb482", null ]
 ];

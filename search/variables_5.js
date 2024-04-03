@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_163',['y',['../struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html#a48729b23331aa5e223b52a6b945db37f',1,'NSKdTreeLib::KDLibBoxPointType::y()'],['../struct_n_s_kd_tree_lib_1_1_point_type3.html#a2e9b398b1c96838fa41a1648b8712879',1,'NSKdTreeLib::PointType3::y()']]]
+  ['tag2id_184',['Tag2ID',['../namespace_n_s_kd_tree_lib_1_1_n_s_var_type_dict.html#a284e5a209b42a7a17ba7e601f4ea1bb3',1,'NSKdTreeLib::NSVarTypeDict']]]
 ];
