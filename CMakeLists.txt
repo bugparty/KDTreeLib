@@ -44,8 +44,7 @@ set(THIRD_PARTY_SOURCES
 )
 add_executable(kdTreeLib src/main.cpp
         include/kdtree_lib/KdTreeLib.cpp
-        include/kdtree_lib/KdTreeLib.hpp
-        include/kdtree_lib/IkdTree.hpp)
+)
 target_link_libraries(kdTreeLib ${PCL_LIBRARIES})
 
 enable_testing()
@@ -54,11 +53,13 @@ add_executable(
         hello_test
         tests/HelloTest.cpp
         tests/IkdTreeTest.cpp
+        tests/RandomPointGenTest.cpp
         ${THIRD_PARTY_SOURCES}
 )
 target_link_libraries(
         hello_test
         GTest::gtest_main
+        ${PCL_LIBRARIES}
 )
 
 include(GoogleTest)

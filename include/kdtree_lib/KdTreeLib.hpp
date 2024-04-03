@@ -2,6 +2,7 @@
 #define KDTREELIB_KDTREELIB_HPP
 #include <vector>
 #include <memory>
+#include <random>
 #include <pcl/point_types.h>
 #include "kdtree_lib/utils/VarTypeDict.hpp"
 namespace NSKdTreeLib {
@@ -48,10 +49,22 @@ namespace NSKdTreeLib {
         }max;
     };
 
-    struct PointType3 {
+    struct Point3 {
         float x, y, z;
-        inline constexpr PointType3(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
-
+        inline constexpr Point3(float px = 0.0f, float py = 0.0f, float pz = 0.0f) : x(px), y(py), z(pz) {}
+    };
+    ///Random Point3 Generator
+    struct RandomPoint3Generator {
+        std::random_device rd;
+        std::mt19937 gen;
+        std::uniform_real_distribution<float> dist;
+        ///Random Point3 Generator
+        /// param min: the min value of the point
+        /// param max: the max value of the point
+        RandomPoint3Generator(float min,float max):gen(rd()),dist(min,max){}
+        Point3 next(){
+            return Point3(dist(gen), dist(gen), dist(gen));
+        }
     };
     /**
      * The KDTree Library
@@ -64,9 +77,7 @@ namespace NSKdTreeLib {
         /// 点云容器类型
         using PointVector = std::vector<PointType, Eigen::aligned_allocator<PointType>>;
         /// 本体智能指针类型
-        using Ptr = std::shared_ptr<KDTreeLib<PointType>>;
-        //Delete the default constructor and assignment operator
-        //KDTreeLib() = delete;
+        //using Ptr = std::shared_ptr<KDTreeLib<PointType>>;
         KDTreeLib()=default;
         KDTreeLib(KDTreeLib&) = delete;
         KDTreeLib(KDTreeLib&&) = delete;
@@ -97,23 +108,23 @@ namespace NSKdTreeLib {
         template<typename TTag, typename TVal>
         void SetParam(TVal &&val) ;
 
-        size_t size();
+        virtual  inline size_t size()=0;
 
-        size_t validnum();
+        virtual inline size_t validnum()=0;
 
         void root_alpha(float &alpha_bal, float &alpha_del);
 
-        void Build(const PointVector &point_cloud);
+        virtual inline void Build( PointVector &point_cloud)=0;
 
         void
         Nearest_Search(PointType point, int k_nearest, PointVector &Nearest_Points, std::vector<float> &Point_Distance,
                        double max_dist = INFINITY);
 
-        void Box_Search(const KDLibBoxPointType &Box_of_Point, PointVector &Storage);
+        inline void Box_Search(const KDLibBoxPointType &Box_of_Point, PointVector &Storage);
 
         void Radius_Search(PointType point, const float radius, PointVector &Storage);
 
-        int Add_Points(PointVector &PointToAdd, bool downsample_on);
+        inline int Add_Points(PointVector &PointToAdd, bool downsample_on);
 
         void Add_Point_Boxes(std::vector<KDLibBoxPointType> &BoxPoints);
 
@@ -123,7 +134,7 @@ namespace NSKdTreeLib {
 
         void acquire_removed_points(PointVector &removed_points);
 
-        auto* implPointer() const;
+        inline auto* implPointer() const;
     protected:
         void* p_impl;
     private:

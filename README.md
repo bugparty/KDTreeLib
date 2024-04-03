@@ -41,3 +41,34 @@ This structure is a starting point and can be adapted based on the specific need
 We hope this layout helps you navigate the KDTreeLib codebase. If you have any questions or suggestions for improvement, please feel free to contribute or contact the project maintainers.
 ## Documentation
 documentation is available at [KDTreeLib](https://bugparty.github.io/KDTreeLib/)
+You can append the following instructions to your `README.md` file to guide users on how to generate Doxygen documentation:
+
+## Generating Documentation
+
+This project uses Doxygen for documentation. To generate the documentation, follow the steps below:
+
+1. Ensure that Doxygen is installed on your system. If not, you can install it using the package manager for your system. For example, on macOS, you can use Homebrew:
+
+```bash
+brew install doxygen
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd path/to/project
+```
+
+3. Run the `gendocs` script:
+
+```bash
+./gendocs
+```
+
+4. The documentation will be generated and can be found in the `docs/` directory. Open the `index.html` file in a web browser to view the documentation.
+
+Please note that the `gendocs` script should be executable. If it's not, you can make it executable by running:
+
+```bash
+chmod +x gendocs
+```
