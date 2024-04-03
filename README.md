@@ -72,3 +72,11 @@ Please note that the `gendocs` script should be executable. If it's not, you can
 ```bash
 chmod +x gendocs
 ```
+## Function comparison between i-Octree and ikd-Tree
+| Functionality          | i-Octree        | ikd-Tree       |
+|------------------------|-----------------|----------------|
+| add points initial     | initialize      | Build          |
+| add points incremental | update          | Add_Points         |
+| knn search             | knnNeighbors    | Nearest_Search |
+| radius search          | radiusNeighbors | Radius_Search  |
+| delete points          | deletePoints    | Delete         |

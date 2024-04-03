@@ -14,11 +14,11 @@ namespace NSKdTreeLib {
     };
     struct BOX_LENGTH {
     };
-    struct BucketSize {
+    struct BUCKET_SIZE {
     };
-    struct CopyPoints {
+    struct COPY_POINTS {
     };
-    struct MinExtent {
+    struct MIN_EXTENT {
     };
     enum class KDTreeType {
         IKDTREE,
@@ -28,7 +28,7 @@ namespace NSKdTreeLib {
     struct IKDParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::DELETE_PARAM, NSKdTreeLib::BALANCE_PARAM, NSKdTreeLib::BOX_LENGTH> {
     };
 ///Define the parameters of the iOctree
-    struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::BucketSize, NSKdTreeLib::CopyPoints, NSKdTreeLib::MinExtent> {
+    struct IOctreeParameters : public NSVarTypeDict::VarTypeDict<NSKdTreeLib::BUCKET_SIZE, NSKdTreeLib::COPY_POINTS, NSKdTreeLib::MIN_EXTENT> {
     };
     struct KDLibBoxPointType {
         union {
