@@ -1,9 +1,10 @@
 <map id="include/kdtree_lib/utils/VarTypeDict.hpp" name="include/kdtree_lib/utils/VarTypeDict.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="123,5,286,47"/>
-<area shape="rect" id="node2" href="$_kd_tree_lib_8hpp.html" title=" " alt="" coords="135,95,274,136"/>
-<area shape="rect" id="node3" href="$main_8cpp.html" title=" " alt="" coords="5,191,111,218"/>
-<area shape="rect" id="node4" href="$_ikd_tree_8hpp.html" title=" " alt="" coords="135,184,274,225"/>
-<area shape="rect" id="node7" href="$_kd_tree_lib_8cpp.html" title=" " alt="" coords="298,184,437,225"/>
-<area shape="rect" id="node5" href="$_ikd_tree_test_8cpp.html" title=" " alt="" coords="17,273,176,300"/>
-<area shape="rect" id="node6" href="$_random_point_gen_test_8cpp.html" title=" " alt="" coords="201,273,425,300"/>
+<area shape="rect" id="node1" title=" " alt="" coords="156,5,319,47"/>
+<area shape="rect" id="node2" href="$_kd_tree_lib_8hpp.html" title=" " alt="" coords="168,95,307,136"/>
+<area shape="rect" id="node3" href="$_ikd_tree_8hpp.html" title=" " alt="" coords="168,184,307,225"/>
+<area shape="rect" id="node7" href="$_i_octree_tree_8hpp.html" title=" " alt="" coords="5,184,144,225"/>
+<area shape="rect" id="node8" href="$_kd_tree_lib_8cpp.html" title=" " alt="" coords="331,184,469,225"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title=" " alt="" coords="25,273,130,300"/>
+<area shape="rect" id="node5" href="$_ikd_tree_test_8cpp.html" title=" " alt="" coords="155,273,314,300"/>
+<area shape="rect" id="node6" href="$_random_point_gen_test_8cpp.html" title=" " alt="" coords="339,273,563,300"/>
 </map>

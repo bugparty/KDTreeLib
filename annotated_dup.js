@@ -7,6 +7,15 @@ var annotated_dup =
         [ "Specialized< PointType, BALANCE_PARAM, TVal >", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_a_l_a_n_c_e___p_a_r_a_m_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_a_l_a_n_c_e___p_a_r_a_m_00_01_t_val_01_4" ],
         [ "Specialized< PointType, BOX_LENGTH, TVal >", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1detail_1_1_specialized_3_01_point_type_00_01_b_o_x___l_e_n_g_t_h_00_01_t_val_01_4" ]
       ] ],
+      [ "IOctree", "namespace_n_s_kd_tree_lib_1_1_i_octree.html", [
+        [ "detail", "namespace_n_s_kd_tree_lib_1_1_i_octree_1_1detail.html", [
+          [ "Specialized", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized.html", null ],
+          [ "Specialized< PointType, BUCKET_SIZE, TVal >", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_b_u_c_k_e_t___s_i_z_e_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_b_u_c_k_e_t___s_i_z_e_00_01_t_val_01_4" ],
+          [ "Specialized< PointType, MIN_EXTENT, TVal >", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_m_i_n___e_x_t_e_n_t_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_m_i_n___e_x_t_e_n_t_00_01_t_val_01_4" ],
+          [ "Specialized< PointType, COPY_POINTS, TVal >", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_c_o_p_y___p_o_i_n_t_s_00_01_t_val_01_4.html", "struct_n_s_kd_tree_lib_1_1_i_octree_1_1detail_1_1_specialized_3_01_point_type_00_01_c_o_p_y___p_o_i_n_t_s_00_01_t_val_01_4" ]
+        ] ],
+        [ "IOcTree", "class_n_s_kd_tree_lib_1_1_i_octree_1_1_i_oc_tree.html", "class_n_s_kd_tree_lib_1_1_i_octree_1_1_i_oc_tree" ]
+      ] ],
       [ "NSVarTypeDict", "namespace_n_s_kd_tree_lib_1_1_n_s_var_type_dict.html", [
         [ "Create_", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create__.html", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create__" ],
         [ "Create_< 0, TCont, T... >", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create___3_010_00_01_t_cont_00_01_t_8_8_8_01_4.html", "struct_n_s_kd_tree_lib_1_1_n_s_var_type_dict_1_1_create___3_010_00_01_t_cont_00_01_t_8_8_8_01_4" ],
@@ -27,9 +36,9 @@ var annotated_dup =
       [ "DELETE_PARAM", "struct_n_s_kd_tree_lib_1_1_d_e_l_e_t_e___p_a_r_a_m.html", null ],
       [ "BALANCE_PARAM", "struct_n_s_kd_tree_lib_1_1_b_a_l_a_n_c_e___p_a_r_a_m.html", null ],
       [ "BOX_LENGTH", "struct_n_s_kd_tree_lib_1_1_b_o_x___l_e_n_g_t_h.html", null ],
-      [ "BucketSize", "struct_n_s_kd_tree_lib_1_1_bucket_size.html", null ],
-      [ "CopyPoints", "struct_n_s_kd_tree_lib_1_1_copy_points.html", null ],
-      [ "MinExtent", "struct_n_s_kd_tree_lib_1_1_min_extent.html", null ],
+      [ "BUCKET_SIZE", "struct_n_s_kd_tree_lib_1_1_b_u_c_k_e_t___s_i_z_e.html", null ],
+      [ "COPY_POINTS", "struct_n_s_kd_tree_lib_1_1_c_o_p_y___p_o_i_n_t_s.html", null ],
+      [ "MIN_EXTENT", "struct_n_s_kd_tree_lib_1_1_m_i_n___e_x_t_e_n_t.html", null ],
       [ "IKDParameters", "struct_n_s_kd_tree_lib_1_1_i_k_d_parameters.html", null ],
       [ "IOctreeParameters", "struct_n_s_kd_tree_lib_1_1_i_octree_parameters.html", null ],
       [ "KDLibBoxPointType", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type.html", "struct_n_s_kd_tree_lib_1_1_k_d_lib_box_point_type" ],

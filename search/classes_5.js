@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['minextent_113',['MinExtent',['../struct_n_s_kd_tree_lib_1_1_min_extent.html',1,'NSKdTreeLib']]]
+  ['min_5fextent_122',['MIN_EXTENT',['../struct_n_s_kd_tree_lib_1_1_m_i_n___e_x_t_e_n_t.html',1,'NSKdTreeLib']]]
 ];
