@@ -1,0 +1,19 @@
+{
+
+    "image": "mcr.microsoft.com/devcontainers/cpp:debian12",
+    "features": {
+      "ghcr.io/akhildevelops/devcontainer-features/apt:0": {"PACKAGES":"libpcl-dev"}
+    },
+    "postCreateCommand": "git submodule update --init --recursive",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "ms-vscode.makefile-tools",
+            "ms-vscode.cmake-tools",
+            "ms-vscode.cpptools-extension-pack",
+            "GitHub.copilot",
+            "GitHub.copilot-chat"
+        ]
+      }
+    }
+  }
