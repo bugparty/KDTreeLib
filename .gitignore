@@ -1,2 +1,14 @@
 /cmake-build-debug/
 /docs/html/
+build/
+_deps/
+CMakeFiles/
+hello_test
+Makefile
+lib/
+CTestTestfile.cmake
+hello_test[1]_include.cmake
+CMakeCache.txt
+cmake_install.cmake
+hello_test[1]_tests.cmake
+hello_test[1]_include.cmake
