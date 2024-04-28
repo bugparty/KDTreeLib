@@ -14,6 +14,20 @@
             "GitHub.copilot",
             "GitHub.copilot-chat"
         ]
+      },
+      "codespaces": {
+        "repositories": {
+          "bugparty/i-octree": {
+            "permissions": {
+              "contents": "write"
+            }
+          },
+          "bugparty/ikd-Tree": {
+            "permissions": {
+              "contents": "write"
+            }
+          }
+        }
       }
     }
   }

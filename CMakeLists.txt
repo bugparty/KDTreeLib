@@ -45,7 +45,7 @@ set(THIRD_PARTY_SOURCES
 add_executable(kdTreeLib src/main.cpp
         include/kdtree_lib/KdTreeLib.cpp
 )
-target_link_libraries(kdTreeLib ${PCL_LIBRARIES})
+target_link_libraries(kdTreeLib ${PCL_LIBRARIES} pthread)
 
 enable_testing()
 
